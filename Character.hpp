@@ -1,0 +1,38 @@
+class Character
+{
+
+	public:
+
+		std::string className;
+
+		virtual void attack(Character* enemy);
+
+		void fightToTheDeath(Character* enemy);
+
+		virtual int returnAttack();
+
+		virtual int returnDefense(); 
+
+		virtual void recover();
+
+		int attackPoints[2];
+
+		int defensePoints[2];
+
+		int armor;
+
+		int strength;
+
+		bool isAlive;
+
+		Character();
+		
+
+	private:
+
+	protected:
+
+
+
+
+};
